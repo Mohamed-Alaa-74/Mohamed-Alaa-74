@@ -1,0 +1,407 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moka.Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <!--start Header-->
+<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" >
+
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Moka</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
+            aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsFurni">
+            <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li><a class="nav-link" href="index.html">About us</a></li>
+                <li><a class="nav-link" href="index.html">Services</a></li>
+                <li><a class="nav-link" href="index.html">Contact us</a></li>
+            </ul>
+
+            <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+                <li><a class="nav-link" href="login.html"><img src="images/user.svg"></a></li>
+                <li><a class="nav-link" href="cart.html"><img src="images/cart.svg"></a></li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+<!-- End Header-->
+
+<!-- Start Hero Section -->
+    <div class="hero" id="hero">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5">
+                    <div class="intro-excerpt">
+                        <h1>Modern Interior <span clsas="d-block">Design Studio</span></h1>
+                        <p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+                            vulputate velit imperdiet dolor tempor tristique.</p>
+                        <p><a href="" class="btn btn-secondary me-2">Shop Now</a><a href="#"
+                                class="btn ">Explore</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="hero-img-wrap">
+                        <img src="images/couch.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Start Product Section -->
+<div class="product-section">
+    <div class="container">
+        <div class="row">
+
+            <!-- Start Column 1 -->
+            <div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
+                <h2 class="mb-4 section-title">Crafted with excellent material.</h2>
+                <p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate
+                    velit imperdiet dolor tempor tristique. </p>
+                <p><a href="index.html" class="btn">Explore</a></p>
+            </div>
+            <!-- End Column 1 -->
+
+    <!-- Start Column 2 -->
+    <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+        <a class="product-item" href="#">
+            <img src="images/product-1.png" class="img-fluid product-thumbnail">
+            <h3 class="product-title">Nordic Chair</h3>
+            <strong class="product-price">$50.00</strong>
+            <span class="icon-cross" onclick="addToCart('Nordic Chair', 50.00, 'images/product-1.png')">
+                <img src="images/cross.svg" class="img-fluid">
+            </span>
+        </a>
+    </div>
+    <!-- End Column 2 -->
+    
+    <!-- Start Column 3 -->
+    <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+        <a class="product-item" href="#">
+            <img src="images/product-2.png" class="img-fluid product-thumbnail">
+            <h3 class="product-title">Kruzo Aero Chair</h3>
+            <strong class="product-price">$78.00</strong>
+            <span class="icon-cross" onclick="addToCart('Kruzo Aero Chair', 78.00, 'images/product-2.png')">
+                <img src="images/cross.svg" class="img-fluid">
+            </span>
+        </a>
+    </div>
+    <!-- End Column 3 -->
+    
+    <!-- Start Column 4 -->
+    <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+        <a class="product-item" href="#">
+            <img src="images/product-3.png" class="img-fluid product-thumbnail">
+            <h3 class="product-title">Ergonomic Chair</h3>
+            <strong class="product-price">$43.00</strong>
+            <span class="icon-cross" onclick="addToCart('Ergonomic Chair', 43.00, 'images/product-3.png')">
+                <img src="images/cross.svg" class="img-fluid">
+            </span>
+        </a>
+    </div>
+    <!-- End Column 4 -->
+
+
+        </div>
+    </div>
+</div>
+<div class="why-choose-section" id="about us">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-6">
+                <h2 class="section-title">Why Choose Us</h2>
+                <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit
+                    imperdiet dolor tempor tristique.</p>
+
+                <div class="row my-5">
+                    <div class="col-6 col-md-6">
+                        <div class="feature">
+                            <div class="icon">
+                                <img src="images/truck.svg" alt="Image" class="imf-fluid">
+                            </div>
+                            <h3>Fast &amp; Free Shipping</h3>
+                            <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6">
+                        <div class="feature">
+                            <div class="icon">
+                                <img src="images/bag.svg" alt="Image" class="imf-fluid">
+                            </div>
+                            <h3>Easy to Shop</h3>
+                            <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6">
+                        <div class="feature">
+                            <div class="icon">
+                                <img src="images/support.svg" alt="Image" class="imf-fluid">
+                            </div>
+                            <h3>24/7 Support</h3>
+                            <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6">
+                        <div class="feature">
+                            <div class="icon">
+                                <img src="images/return.svg" alt="Image" class="imf-fluid">
+                            </div>
+                            <h3>Hassle Free Returns</h3>
+                            <p>Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="img-wrap">
+                    <img src="images/why-choose-us-img.jpg" alt="Image" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Start Testimonial Slider -->
+<div class="testimonial-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 mx-auto text-center">
+                <h2 class="section-title">Testimonials</h2>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="testimonial-slider-wrap text-center">
+
+                    <div id="testimonial-nav">
+                        <span class="prev" onclick="prevSlide()">‹</span>
+                        <span class="next" onclick="nextSlide()">›</span>
+                    </div>
+
+                    <div class="testimonial-slider">
+                        <div class="item">
+                            <div class="testimonial-block text-center">
+                                <blockquote class="mb-5">
+                                    <p>&ldquo;This is the first testimonial,Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quasi nemo optio, consequatur soluta, beatae distinctio, mollitia&rdquo;</p>
+                                </blockquote>
+                                <div class="author-info">
+                                    <div class="author-pic">
+                                        <img src="images/person-1.png" alt="Maria Jones" class="img-fluid">
+                                    </div>
+                                    <h3 class="font-weight-bold">Maria Jones</h3>
+                                    <span class="position d-block mb-3">CEO, XYZ Inc.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-block text-center">
+                                <blockquote class="mb-5">
+                                    <p>&ldquo;This is the second testimonial Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quos architecto sit accusamus exercitationem ab rem vitae vero illo fugit distinctio excepturi iusto molestias odit, animi consequuntur earum eveniet totam?&rdquo;</p>
+                                </blockquote>
+                                <div class="author-info">
+                                    <div class="author-pic">
+                                        <img src="images/person-1.png" alt="John Doe" class="img-fluid">
+                                    </div>
+                                    <h3 class="font-weight-bold">John Doe</h3>
+                                    <span class="position d-block mb-3">Co-Founder, ABC Ltd.</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-block text-center">
+                                <blockquote class="mb-5">
+                                    <p>&ldquo;This is the third testimonial Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet repellat eos sit ipsam sapiente optio neque nihil veniam aut quisquam minima quos, labore sequi nemo incidunt dolorem veritatis ullam aperiam!&rdquo;</p>
+                                </blockquote>
+                                <div class="author-info">
+                                    <div class="author-pic">
+                                        <img src="images/person-1.jpg" alt="Sarah Lee" class="img-fluid">
+                                    </div>
+                                    <h3 class="font-weight-bold">Sarah Lee</h3>
+                                    <span class="position d-block mb-3">Manager, DEF Corp.</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Testimonial Slider -->
+<!-- Start Blog Section -->
+<div class="blog-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <h2 class="section-title">Recent Blog</h2>
+            </div>
+            <div class="col-md-6 text-start text-md-end">
+                <a href="#" class="more">View All Posts</a>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+                <div class="post-entry">
+                    <a href="#" class="post-thumbnail"><img src="images/post-1.jpg" alt="Image" class="img-fluid"></a>
+                    <div class="post-content-entry">
+                        <h3><a href="#">First Time Home Owner Ideas</a></h3>
+                        <div class="meta">
+                            <span>by <a href="#">Mohamed Yasser</a></span> <span>on <a href="#">Dec 19, 2021</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+                <div class="post-entry">
+                    <a href="#" class="post-thumbnail"><img src="images/post-2.jpg" alt="Image" class="img-fluid"></a>
+                    <div class="post-content-entry">
+                        <h3><a href="#">How To Keep Your Furniture Clean</a></h3>
+                        <div class="meta">
+                            <span>by <a href="#">Ahmed Safwat</a></span> <span>on <a href="#">Dec 15, 2021</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 mb-4 mb-md-0">
+                <div class="post-entry">
+                    <a href="#" class="post-thumbnail"><img src="images/post-3.jpg" alt="Image" class="img-fluid"></a>
+                    <div class="post-content-entry">
+                        <h3><a href="#">Small Space Furniture Apartment Ideas</a></h3>
+                        <div class="meta">
+                            <span>by <a href="#">Mohamed Fawzy</a></span> <span>on <a href="#">Dec 12, 2021</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- End Blog Section -->
+
+<!-- Start Footer Section -->
+<footer class="footer-section">
+    <div class="container relative">
+
+        <div class="sofa-img">
+            <img src="images/sofa.png" alt="Image" class="img-fluid">
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="subscription-form">
+                    <h3 class="d-flex align-items-center"><span class="me-1"><img src="images/envelope-outline.svg"
+                                alt="Image" class="img-fluid"></span><span>Subscribe to Newsletter</span></h3>
+
+                    <form action="#" class="row g-3">
+                        <div class="col-auto">
+                            <input type="text" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="col-auto">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                        </div>
+                        <div class="col-auto">
+                            <button class="btn btn-primary">
+                                <span class="fa fa-paper-plane"></span>
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-5 mb-5">
+            <div class="col-lg-4">
+                <div class="mb-4 footer-logo-wrap"><a href="index.html" class="footer-logo">Furni</a></div>
+                <p class="mb-4">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus
+                    malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+                    Pellentesque habitant</p>
+
+                <ul class="list-unstyled custom-social">
+                    <li><a href="https://www.facebook.com/profile.php?id=100043579402368"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+                    <li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+                    <li><a href="https://www.instagram.com/muhammed_alaa3/?next=%2F"><span class="fa fa-brands fa-instagram"></span></a></li>
+                    <li><a href="https://www.linkedin.com/in/mohamed-alaa-b85b77282/"><span class="fa fa-brands fa-linkedin"></span></a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="row links-wrap">
+                    <div class="col-6 col-sm-6 col-md-3">
+                        <ul class="list-unstyled">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-3">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Knowledge base</a></li>
+                            <li><a href="#">Live chat</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-3">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Our team</a></li>
+                            <li><a href="#">Leadership</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-3">
+                        <ul class="list-unstyled">
+                            <li><a href="#">Nordic Chair</a></li>
+                            <li><a href="#">Kruzo Aero</a></li>
+                            <li><a href="#">Ergonomic Chair</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer Section -->
+    <script src="js/cart.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+</body>
+</html>
